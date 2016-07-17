@@ -1,0 +1,15 @@
+/*
+ * cstring
+ *
+ *  Created on: Jan 30, 2016
+ *      Author: mihai
+ */
+
+#ifndef SRC_INCLUDE_CSTRING_
+#define SRC_INCLUDE_CSTRING_
+
+extern "C" {
+int strcmp(const char * str1, const char * str2);
+}
+
+#endif /* SRC_INCLUDE_CSTRING_ */
